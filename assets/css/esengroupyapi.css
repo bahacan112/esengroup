@@ -407,7 +407,7 @@ banner
 */
 
 #top {
-  padding-top: 20px;
+  margin-top: 30px;
 }
 
 #top .col-lg-4,
@@ -1976,5 +1976,7 @@ video{
 
 
 
-
+.mesafe{
+  margin-bottom:30px;
+}
 
