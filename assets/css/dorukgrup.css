@@ -1958,7 +1958,19 @@ input:checked + .slide-container .nav label { display: block; }
 
 
 
+.video{
+  padding:30px 30px;
+  display:flex;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
 
+}
+video{
+  border-radius:30px;
+  width:100%;
+
+}
 
 
 
