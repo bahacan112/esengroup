@@ -237,7 +237,7 @@ h2{
  position: relative;
  margin-top: 0px;
  margin-left: 0px;
-
+text-align: center;
 	font-size:20px;
 color: #000000;
 font-weight: 600;
@@ -365,6 +365,7 @@ body {
   font-size: 20px;
   color: #000000;
   font-weight: 600;
+  text-align:center;
   letter-spacing: 2px;
   text-transform: uppercase;
   padding-left: 40px;
@@ -385,8 +386,9 @@ body {
   margin-top: 0px;
   margin-bottom: 15px; 
   font-size: 30px;
-  font-weight: 400;
-  color: #FFFFFF;
+  font-weight: 600;
+  
+  color: black;
 }
 
 .section-heading h4 {
@@ -1316,11 +1318,11 @@ footer
 }
 .site-footer a
 {
-  color:#737373;
+  color:white;
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:black;
   text-decoration:none;
 }
 .footer-links
@@ -1334,11 +1336,11 @@ footer
 }
 .footer-links a
 {
-  color:#737373
+  color:white;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:black;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -1739,12 +1741,12 @@ img {
 .gallery {
   display: flex;
     margin: 10px auto;
-    max-width: max-img-width: 600px;
+    max-width:  600px;
     position: relative;
-    padding-top: $max-img-height/$max-img-width * 100%;
+    padding-top: (600/400) * 100%;
     
-    @media screen and (min-width: $max-img-width){
-      padding-top: $max-img-height;
+    @media screen and (min-width: 600px){
+      padding-top: 600px;
     }
   
   &__img {
